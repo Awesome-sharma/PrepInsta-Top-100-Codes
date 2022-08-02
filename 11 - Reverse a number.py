@@ -5,10 +5,9 @@
 # Input : 123
 # Output : 321
 
-
+n = int(input("give = "))
 # method 1
 
-n = int(input("give = "))
 ans = ""
 while n > 0:
   ans += str(n%10)
@@ -20,3 +19,9 @@ print(ans)
 
 sn = str(n)
 print(sn[::-1])
+
+# method 3
+ans = ""
+for i in list(str(n)):
+  ans = i + ans
+print(ans)
