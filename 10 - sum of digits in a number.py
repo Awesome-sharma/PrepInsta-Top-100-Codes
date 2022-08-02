@@ -5,8 +5,21 @@
 # Input : number = 123
 # Output : 6
 
+# method 1
+
 num = list(input("give input = "))
 ans = 0
 for i in num:
   ans += int(i)
+print(ans)
+
+
+
+# method 2
+
+n = int(input("give = ")) 
+ans = 0
+while n > 0:
+  ans += n%10
+  n = n//10
 print(ans)
