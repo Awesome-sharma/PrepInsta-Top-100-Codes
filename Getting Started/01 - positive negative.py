@@ -1,6 +1,4 @@
-#Check if a Number is Positive and Negative in
-
-
+#Check if a Number is Positive and Negative
 
 num = int((input("give value = ")))
 
